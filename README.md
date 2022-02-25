@@ -1,2 +1,2 @@
 # python_bash
-2nd term practice with python and bash language, future network engineer profile
+2nd term practice with python and bash language, hello to future me!
