@@ -7,9 +7,7 @@ print(client, address)
 client.send('connection established'.encode('utf-8'))
 while True:
     data = client.recv(1024)
-    print(data)
     multy = data.decode('utf-8')
-    print(multy)
     if multy == 'close':
         print('connection closed')
         break
